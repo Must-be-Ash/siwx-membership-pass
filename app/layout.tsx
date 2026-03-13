@@ -31,8 +31,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://siwx-membership-pass.vercel.app/og.png",
-        width: 1200,
-        height: 630,
+        width: 2822,
+        height: 1632,
         alt: "Membership Pass",
       },
     ],
