@@ -192,3 +192,7 @@ const httpServer = new x402HTTPResourceServer(
 
 export const proxy = paymentProxyFromHTTPServer(httpServer);
 
+export const config = {
+  matcher: ["/api/:path*"],
+};
+
