@@ -190,9 +190,7 @@ const httpServer = new x402HTTPResourceServer(
   routes
 ).onProtectedRequest(createMembershipGateHook());
 
-export const middleware = paymentProxyFromHTTPServer(httpServer);
-
-export const runtime = "nodejs";
+export const proxy = paymentProxyFromHTTPServer(httpServer);
 
 export const config = {
   matcher: ["/api/:path*"],
